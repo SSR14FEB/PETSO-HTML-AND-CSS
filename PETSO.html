@@ -1,183 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>new project</title>
-    <style>
-        /* css reset */
-        body {
-            display: block;
-            background: url('wp2308772-black-dog-wallpapers (1).jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-        }
-        .container1 {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            justify-content: space-between;
-        }
-        .left p1 {
-            color: white;
-            display: flex;
-            justify-content: center;
-        }
-        .mid {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .navbar {
-            display: flex;
-            flex-shrink: 1;
-            justify-content: space-evenly;
-        }
-        .navbar li {
-            display: inline block;
-            list-style: none;
-        }
-        .navbar li a {
-            display: flex;
-            flex-shrink: 1;
-            font-size: 20px;
-            color: white;
-            font-weight: bold;
-            padding: 10px;
-            text-decoration: none;
-        }
-        .navbar li a:hover {
-            color: wheat;
-            font-weight: bold;
-            font-size: 20px;
-        }
-        .right {
-            display: flex;
-            flex-wrap: wrap;
-            padding: 25px 11px;
-            flex-shrink: 1;
-        }
-        .right a {
-            display: flex;
-            justify-content: space-around;
-            text-decoration: none;
-            flex-shrink: 1;
-            color: white;
-            font-size: 20px;
-            border: 2px solid white;
-            padding: 2px 5px;
-            border-radius: 10px;
-        }
-        .right a:hover {
-            color: plum;
-            font-weight: bold;
-            border: 2px solid chartreuse;
-        }
-        .container2 {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            width: 250px;
-            height: 324px;
-            border: 2px solid white;
-            border-radius: 9px;
-        }
-        .container2:hover {
-            border: 3px solid chartreuse;
-        }
-        .container2 h2 {
-            padding: 6px 13px;
-            font-weight: bold;
-            color: hotpink;
-        }
-        form {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-        }
-        .form_group {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            align-self: center;
-        }
-        .form_group input {
-            display: flex;
-            flex-shrink: 2;
-            border: 2px solid white;
-            border-radius: 5px;
-            background-color: black;
-            color: white;
-        }
-        .button {
-            display: flex;
-            flex-wrap: wrap;
-            flex-shrink: 1;
-            align-self: center;
-            padding: 7px 37px;
-            justify-content: space-between;
-        }
-        .bt {
-            display: flex;
-            flex-wrap: wrap;
-            border: 2px solid rgb(198, 48, 178);
-            border-radius: 5px;
-            background-color: rgb(5, 5, 5);
-            color: rgb(215, 198, 69);
-            padding: 2px 24px;
-         }
-        .space {
-            display: flex;
-            flex-wrap: wrap;
-            padding: 31px 82px;
-            flex-shrink: 1;
-        }
-        .space1 {
-            display: flex;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="petso.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
-
 <body>
-    <header>
-        <div class="container1">
-            <div class="left">
-                <img src="WhatsApp Image 2023-12-12 at 9.24.18 PM (1).jpeg" alt="">
-                <p1>PetSo</p1>
-            </div>
-            <div class="mid">
-                <ul class="navbar">
-                    <li><a href="" class="active">Home</a></li>
-                    <li><a href="">Service</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">About</a></li>
-                </ul>
-            </div>
-            <div class="right">
-                <a href="">Sign in</a>
-            </div>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="WhatsApp Image 2023-12-12 at 9.24.18 PM (1).jpeg" alt="">
         </div>
-        <div class="space1">
-
-            <div class="space">
-                <div class="container2">
-                    <h2>Get Ready For Unconditional LOVE.</h2>
-                    <form action="noaction.php">
-                        <div class="form_group">
-                            <input type="text" name="UserName" placeholder="email" id="input">
-                            <input type="text" name="pasword" placeholder="pasword" id="input">
-                        </div>
-                        <div class="button">
-                            <button class="bt">Login</button>
-                            <button class="bt">Reset</button>
-                        </div>
-                    </form>
+        <ul>
+            <li class="item" ><a href="" >Home</a></li>
+            <li class="item" ><a href="" >AboutUS</a></li>
+            <li class="item" ><a href="" >ContantUS</a></li>
+            <li class="item" ><a href="" >Service</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="primary-home">Wellcome To Our Online Petshop</h1>
+        <P>Get redy for unconditional love and care </P>
+        <P>Bring a new family member to your family</P>
+        <div class="btn">
+        <button>LogIn</button>
+        </div>
+        </section>
+        <section class="Services-container">
+            <h1 class="h-primary center">OurServices</h1>
+            <div id="services">
+                <div class="Dog">
+                    <img src="pexels-freestocksorg-688961.jpg" alt="">
+                    <h2 class="h-secondary center">Dog food</h2>
+                </div>
+                <div class="Dog">
+                    <img src="pexels-gustavo-fring-4148879.jpg" alt="">
+                    <h2 class="h-secondary center">Dog Grooming</h2>
+                </div>
+                <div class="Dog">
+                    <img src="pexels-екатерина-котик-12505893.jpg" alt="">
+                    <h2 class="h-secondary center">Dog Toys</h2>
+                </div>
+                <div class="Dog">
+                    <img src="pexels-freestocksorg-688961.jpg" alt="">
+                    <h2 class="h-secondary center">Dog food</h2>
+                </div>
+                <div class="Dog">
+                    <img src="pexels-gustavo-fring-4148879.jpg" alt="">
+                    <h2 class="h-secondary center">Dog Grooming</h2>
+                </div>
+                <div class="Dog">
+                    <img src="pexels-екатерина-котик-12505893.jpg" alt="">
+                    <h2 class="h-secondary center">Dog Toys</h2>
+                </div>
+                <div class="Dog">
+                    <img src="pexels-gustavo-fring-4148879.jpg" alt="">
+                    <h2 class="h-secondary center">Dog Grooming</h2>
+                </div>
+                <div class="Dog">
+                    <img src="pexels-екатерина-котик-12505893.jpg" alt="">
+                    <h2 class="h-secondary center">Dog Toys</h2>
                 </div>
             </div>
+        </section>
+        <section id="contact-contianer">
+            <h1 class="h-primary center">Contact Us</h1>
+            <div class="contact">
+                <form action="no action">
+                    <div class="contact-box">
+                        <label for="user_name"><span class="material-symbols-outlined">person</span></label><br>
+                        <input type="text" name="name" id="user_name" placeholder="Name"><br>
+                        <label for="email"><span class="material-symbols-outlined">mail</span></label><br>
+                        <input type="email" name="email" id="email" placeholder="Email"><br>
+                        <label for="number"><span class="material-symbols-outlined">phone_iphone</span></label><br>
+                        <input type="text" name="number" id="number" placeholder="+91Number"><br>
+                        <label for="massage">Massage</label><br>
+                        <textarea name="massage" id="massage" cols="29" rows="10"></textarea>
+                            <div class="btn2">
+                            <button type="submit">submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="center">
+            copyright &copy; www.petso.com All rights revserved!
         </div>
-    </header>
+        </footer>
 </body>
-
 </html>
